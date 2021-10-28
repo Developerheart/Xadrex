@@ -7,6 +7,19 @@
 	<groupId>br.com.lampp</groupId>
 	<artifactId>Xadrex</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>RELEASE</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
+		</dependency>
+	</dependencies>
 
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
