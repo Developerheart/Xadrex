@@ -6,4 +6,8 @@ public class BoardException extends RuntimeException{
     public BoardException(String msg){
         super(msg);
     }
+
+    public BoardException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }
