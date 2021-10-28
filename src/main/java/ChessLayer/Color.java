@@ -1,8 +1,14 @@
 package ChessLayer;
 
 public enum Color {
-    BLACK,
-    WHITE;
+    BLACK(TypePiece.BISP),
+    WHITE(TypePiece.HORSE);
 
+
+    private TypePiece typePiece;
+
+    Color(TypePiece typePiece) {
+        this.typePiece = typePiece;
+    }
 
 }
